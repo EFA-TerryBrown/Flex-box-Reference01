@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Flex box Ref-Sheet</title>
+  </head>
+  <body>
+    <h2 id="mainAxisChangeA">Main-Axis is now Row (via flex-direction: row. In CSS, its the default)</h2>
+    <h2 class="warning">FOR ANY OF THIS TO WORK PLEASE MAKE SURE YOU HAVE (display: flex;) in CSS!</h2>
+    <section>
+      <h1>Flex-box Playground</h1>
+      <h2>Justify-Content Center</h2>
+      <h2>The Main axis is going from Left to Right</h2>
+      <h2>The Cross axis is going from Top to Bottom</h2>
+      <div class="containerJC">
+        <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+        <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+        <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+        <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+        <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+      </div>
+    </section>
+
+    <section>
+      
+      <h2>Justify-Content Start (default, moves content to the Left)</h2>
+      <h2>The main axis is going from Left to Right</h2>
+      <h2>The Cross axis is going from Top to Bottom</h2>
+      <div class="containerJC_Start">
+        <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+        <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+        <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+        <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+        <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+      </div>
+    </section>
+
+    <section>
+     
+      <h2>Justify-Content End (moves content to the Right)</h2>
+      <h2>The main axis is going from Left to Right</h2>
+      <h2>The Cross axis is going from Top to Bottom</h2>
+      <div class="containerJC_End">
+        <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+        <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+        <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+        <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+        <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        Justify-Content Space-Between 
+        (spaces out the contents of the container 
+        (starting from both ends))
+      </h2>
+      <h2>The main axis is going from Left to Right</h2>
+      <h2>The Cross axis is going from Top to Bottom</h2>
+      <div class="containerJC_SpaceBetween">
+        <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+        <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+        <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+        <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+        <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+      </div>
+    </section>
+
+    <section>
+        <h2>
+          Justify-Content Space-Around 
+          (spaces out the contents of the container 
+          (spaces everything around all of the obj(s) in the container
+           'Not quite evenly'))
+        </h2>
+        <h2>The main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_SpaceAround">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+          Justify-Content Space-Evenly 
+          (spaces out the contents of the container 
+          (spaces everything around all of the obj(s) in the container evenly)
+        </h2>
+        <h2>The main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_SpaceEvenly">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+          Align-Items Center 
+        </h2>
+        <h2>Puts row of content in the middle of the screen (on the left).</h2>
+        <h2>The main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerAI_Center">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+          Align-Items Start 
+        </h2>
+        <h2>Puts row of content in the Top-Left of the screen.</h2>
+        <h2>The main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerAI_Start">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+          Align-Items End
+        </h2>
+        <h2>Puts row of content in the Bottom-left of the screen.</h2>
+        <h2>The main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerAI_End">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+    <h2 id="mainAxisChangeB">Main-Axis (via flex-direction: column) is now changed to Column (In CSS)</h2>
+
+    <section>
+        <h2>
+         Justify-Content Start
+        </h2>
+        <h2>Puts column of content to the Left of the screen.</h2>
+        <h2>The main axis is going from Top to Bottom</h2>
+        <h2>The Cross axis is going from Left to Right</h2>
+        <div class="containerJC_Column_Start">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+         Justify-Content Center
+        </h2>
+        <h2>Puts column of content in the Center of the screen.</h2>
+        <h2>The main axis is going from Top to Bottom</h2>
+        <h2>The Cross axis is going from Left to Right</h2>
+        <div class="containerJC_Column_Center">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+         Justify-Content End
+        </h2>
+        <h2>Puts column of content in the Center of the screen.</h2>
+        <h2>The main axis is going from Top to Bottom</h2>
+        <h2>The Cross axis is going from Left to Right</h2>
+        <div class="containerJC_Column_End">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+      
+      <h2 id="mainAxisChangeA1">Main-Axis is now Row (via flex-direction: row. In CSS, its the default)</h2>
+      <h2 class="info">You can use both Justify-Content and Align-Items together!</h2>
+      <section>
+        <h2>
+         Justify-Content and Align-Items
+        </h2>
+        <h2>Puts column of content in the Top-Left of the screen.(default)</h2>
+        <h2>The Main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_AI_Start">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+         Justify-Content and Align-Items (both set to flex-start in CSS)
+        </h2>
+        <h2>Puts column of content in the Top-Left of the screen.(default)</h2>
+        <h2>The Main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_AI_Start">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+         Justify-Content and Align-Items (both set to Center in CSS)
+        </h2>
+        <h2>Puts EVERYTHING SMACK DEAD IN THE MIDDLE!!!</h2>
+        <h2>The Main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_AI_Center">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+         Justify-Content(set to center in CSS) and Align-Items(set to flex-start in CSS)
+        </h2>
+        <h2>Still in the middle but content is 'PUSHED' to the TOP!</h2>
+        <h2>The Main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_Center_AI_Start">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+         Justify-Content(set to center in CSS) and Align-Items(set to flex-end in CSS)
+        </h2>
+        <h2>Still in the middle but content is 'PUSHED' to the BOTTOM!</h2>
+        <h2>The Main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_Center_AI_End">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+         Justify-Content(set to flex-end in CSS) and Align-Items(set to center in CSS)
+        </h2>
+        <h2>Still in the middle but content is 'PUSHED' to the Center Right-side!</h2>
+        <h2>The Main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_End_AI_Center">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>
+         Justify-Content(set to flex-end in CSS) and Align-Items(set to flex-start in CSS)
+        </h2>
+        <h2>All of the content is moved to the right of the container</h2>
+        <h2>The Main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_End_AI_Start">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <h2 id="mainAxisChangeC">Main-Axis (via flex-direction: column) is now changed to Column (In CSS)</h2>
+      
+      <section>
+        <h2>
+         Justify-Content(set to flex-start in CSS) and Align-Items(set to flex-start in CSS)
+        </h2>
+        <h2>All of the content is moved to the right of the container
+            (default, but we have assigned 'flex-wrap' in CSS)</h2>
+        <h2>The boxes now return to there initial size (200px) and are now distributed FROM TOP TO BOTTOM!</h2>
+        <h2>The Main axis is going from TOP to BOTTOM</h2>
+        <h2>The Cross axis is going from LEFT to RIGHT</h2>
+        <div class="containerJC_ColStart_AI_Start">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+     
+      <h2 class="warning"> We will now add some spacing between these elements!</h2>
+      <section>
+        <h2>
+         Justify-Content(set to flex-start in CSS) and Align-Items(set to flex-start in CSS)
+        </h2>
+        <h2>All of the content is moved to the right of the container
+            (default, but we have assigned 'flex-wrap' in CSS)</h2>
+        <h2>The boxes now return to there initial size (200px) and are now distributed FROM TOP TO BOTTOM!</h2>
+        <h2>The Main axis is going from TOP to BOTTOM</h2>
+        <h2>The Cross axis is going from LEFT to RIGHT</h2>
+        <h2>
+            *AS YOU CAN SEE CONTENT ITEMS ARE NOW SPACED, BUT FROM TOP TO BOTTOM.
+            THE MAIN-AXIS IS CONTROLLING THIS!
+        </h2>
+
+        <div class="containerJC_ColStart_AI_Start_SpaceBetween">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+      <h2 class="warning"> There is SO much more that you can do with this! This is just the "tip if the iceberg!"</h2>
+      <h2 class="warning">
+          You can also move items individually
+      </h2>
+      
+      <h2 id="mainAxisChangeA2">Main-Axis is now Row (via flex-direction: row. In CSS, its the default)</h2>
+      <section>
+        <h2>Justify-Content Start (default, moves content to the Left)</h2>
+        <h2>Using Justify-Content Space-Between just because</h2>
+        <h2>But, using :nth-of-type(numeric value) in CSS to select specific content</h2>
+        <h2>And (align-self: (flex-direction(S) or center in CSS)</h2>
+        <h2>The main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_Start_alignIdvidualItem">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <h2 id="mainAxisChangeA3">We can set Flex-bias in CSS to have a default size for the content</h2>
+      <section>
+        <h2>Justify-Content Center (content is in the center)</h2>
+        <h2>Setting Default Size</h2>
+        <h2>The hight is Removed to shocase that the container will snap to the size
+            of the Flex-bias objs for the height (default).
+        </h2>
+        <h2>The main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_Start_FlexBias">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <h2 id="mainAxisChangeA4">We can set Flex-grow in CSS to determine how much content 'grows' in the website.</h2>
+      <section>
+        <h2>Justify-Content Center (content is in the center)</h2>
+        <h2>The 1st and the last pieces of content are spread out to consume any 'empty' space in the website.
+            (In this case it fills up anything that is purple.)
+        </h2>
+        <h2>The main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_Start_FlexGrow">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+
+      <h2 id="mainAxisChangeA5">We can set Flex-grow in CSS to determine how much content 'shrinks' in the website.</h2>
+      <section>
+        <h2>Justify-Content Center (content is in the center)</h2>
+        <h2>The 1st and the last pieces of content are spread out to consume any 'empty' space in the website.
+            (In this case it fills up anything that is purple.)
+        </h2>
+        <h2>The Fourth piece of content will 'Shrink' faster than the rest b/c it's flex-shrink is set to 3 in CSS</h2>
+        <h2>The main axis is going from Left to Right</h2>
+        <h2>The Cross axis is going from Top to Bottom</h2>
+        <div class="containerJC_Start_FlexShrink">
+          <div class="box" style="background-color: rgb(28, 28, 192)"></div>
+          <div class="box" style="background-color: rgb(0, 238, 255)"></div>
+          <div class="box" style="background-color: rgb(39, 63, 167)"></div>
+          <div class="box" style="background-color: rgb(13, 175, 99)"></div>
+          <div class="box" style="background-color: rgb(145, 214, 16)"></div>
+        </div>
+      </section>
+    </body>
+</html>

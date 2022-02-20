@@ -1,0 +1,512 @@
+body{
+    text-align: center;
+}
+.warning{
+    border: 2px solid black;
+    background-color: orange;
+}
+/* this guy holds all of the content */
+.containerJC{
+margin: 0 auto;
+border:3px solid black;
+background-color: blueviolet;
+
+/* the width of the container will be 90% of the screen */
+width: 90%;
+height: 500px;
+
+display: flex;
+justify-content: center;
+}
+
+/* each 'div' inside of the container object */
+.containerJC div{
+    width: 200px;
+    height: 200px;
+}
+
+.containerJC_Start{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
+.containerJC_Start div{
+    width: 200px;
+    height: 200px;
+}
+
+.containerJC_End{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.containerJC_End div
+{
+    width: 200px;
+    height: 200px;
+}
+
+.containerJC_SpaceBetween{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerJC_SpaceBetween div{
+    width: 200px;
+    height: 200px;
+}
+
+.containerJC_SpaceAround{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerJC_SpaceAround div{
+    width: 200px;
+    height: 200px; 
+}
+
+.containerJC_SpaceEvenly{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerJC_SpaceEvenly div{
+    width: 200px;
+    height: 200px; 
+}
+
+.containerAI_Center{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.containerAI_Center div{
+    width: 200px;
+    height: 200px; 
+}
+
+.containerAI_Start{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    
+    display: flex;
+    align-items: flex-start;
+}
+
+.containerAI_Start div{
+    height: 200px;
+    width: 200px;
+}
+
+.containerAI_End{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    
+    display: flex;
+    align-items: flex-end;
+}
+
+.containerAI_End div{
+    height: 200px;
+    width: 200px;
+}
+
+
+.containerAI_SpacedBetween div{
+    height: 200px;
+    width: 200px;
+}
+
+
+.containerJC_Column_Start{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+
+.containerJC_Column_Start div{
+    height: 200px;
+    width: 200px;
+}
+
+.containerJC_Column_Center{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+}
+
+.containerJC_Column_Center div{
+    height: 200px;
+    width: 200px;
+}
+
+.containerJC_Column_End{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+}
+
+.containerJC_Column_End div{
+    height: 200px;
+    width: 200px;
+}
+
+
+.containerJC_AI_Start{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.containerJC_AI_Start div{
+    height: 200px;
+    width: 200px;
+}
+
+.containerJC_AI_Center{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerJC_AI_Center div{
+    height: 200px;
+    width: 200px;
+}
+
+.containerJC_Center_AI_Start{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.containerJC_Center_AI_Start div{
+    height: 200px;
+    width: 200px;
+}
+
+.containerJC_Center_AI_End{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen */
+    width: 90%;
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.containerJC_Center_AI_End div{
+    height: 200px;
+    width: 200px;
+}
+
+ .containerJC_End_AI_Center{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen  */
+    width: 90%;
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.containerJC_End_AI_Center div{
+    height: 200px;
+    width: 200px;
+} 
+
+
+.containerJC_End_AI_Start{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen  */
+    width: 90%;
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.containerJC_End_AI_Start div{
+    height: 200px;
+    width: 200px;
+}
+
+.containerJC_ColStart_AI_Start{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen  */
+    width: 90%;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.containerJC_ColStart_AI_Start div{
+    height: 200px;
+    width: 200px;
+}
+
+.containerJC_ColStart_AI_Start_SpaceBetween{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen  */
+    width: 90%;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.containerJC_ColStart_AI_Start_SpaceBetween div{
+    height: 200px;
+    width: 200px;
+}
+
+.containerJC_Start_alignIdvidualItem{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen  */
+    width: 90%;
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.containerJC_Start_alignIdvidualItem div{
+    height: 200px;
+    width: 200px;
+}
+.containerJC_Start_alignIdvidualItem :nth-of-type(2){
+    align-self: flex-end;
+}
+
+
+.containerJC_Start_alignIdvidualItem :nth-of-type(4){
+    align-self: center;
+}
+
+.containerJC_Start_alignIdvidualItem :nth-of-type(5){
+    align-self: flex-end;
+}
+
+.containerJC_Start_FlexBias{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen  */
+    width: 90%;
+    /* height: 500px; */
+    flex-basis: 7em;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.containerJC_Start_FlexBias div{
+    height: 200px;
+    width: 200px;
+}
+
+.containerJC_Start_FlexGrow{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen  */
+    width: 90%;
+    /* height: 500px; */
+    flex-basis: 7em;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.containerJC_Start_FlexGrow :nth-of-type(1),
+.containerJC_Start_FlexGrow :nth-of-type(5)
+{
+    flex-grow: 1;
+}
+.containerJC_Start_FlexGrow div{
+    height: 200px;
+    width: 200px;
+}
+
+.containerJC_Start_FlexShrink{
+    margin: 0 auto;
+    border:3px solid black;
+    background-color: blueviolet;
+    
+    /* the width of the container will be 90% of the screen  */
+    width: 90%;
+    /* height: 500px; */
+    flex-basis: 7em;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.containerJC_Start_FlexShrink :nth-of-type(1),
+.containerJC_Start_FlexShrink :nth-of-type(5)
+{
+    flex-shrink: 1;
+}
+.containerJC_Start_FlexShrink :nth-of-type(4){
+    flex-shrink: 3;
+}
+
+.containerJC_Start_FlexShrink div{
+    height: 200px;
+    width: 200px;
+}
+
+
+#mainAxisChangeA,
+#mainAxisChangeA1,
+#mainAxisChangeA2,
+#mainAxisChangeA3,
+#mainAxisChangeA4,
+#mainAxisChangeA5,
+#mainAxisChangeC{
+    border:4px solid black;
+    background-color: red;
+    color: white;
+}
+
+#mainAxisChangeB{
+    border:4px solid black;
+    background-color: red;
+    color: white;
+}
+
